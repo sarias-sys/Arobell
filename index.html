@@ -192,9 +192,11 @@ td:first-child{color:var(--blanco)}
   border-radius:0 7px 7px 0;font-size:14px;color:#E4D7C9}
 .note.blue{border-left-color:var(--azul);background:#101922;color:#C9D8E6}
 .note b{color:var(--blanco);font-weight:500}
-.cta{display:inline-block;background:var(--naranja);color:#fff;font-weight:500;font-size:15px;
+.cta{display:inline-flex;align-items:center;gap:10px;background:var(--naranja);color:#fff;font-weight:500;font-size:15px;
   padding:14px 28px;border-radius:7px;margin-top:26px}
 .cta:hover{background:#FF8420}
+.cta .wa{display:inline-flex;line-height:0}
+.cta:focus-visible{outline:2px solid var(--azul-c);outline-offset:3px}
 footer{max-width:var(--max);margin:0 auto;padding:70px 0 60px;border-top:1px solid var(--linea);
   color:#5E6C7C;font-size:12.5px}
 footer img{width:130px;margin-bottom:26px}
@@ -438,7 +440,8 @@ footer .claim b{font-weight:600}
     <li><input type="checkbox"><span>Las personas que asistirán a las cuatro sesiones de capacitación</span></li>
   </ul>
 
-  <a class="cta" href="mailto:comercial@desarrollandoando.com?subject=Arrancamos%20con%20Flow%20—%20Laboratorios%20Arobell">Confirmar el arranque</a>
+  <a class="cta" href="https://wa.me/573193760018?text=Hola%2C%20soy%20de%20Laboratorios%20Arobell.%20Vimos%20la%20propuesta%20de%20Flow%20y%20queremos%20arrancar.%20%C2%BFConfirmamos%20el%20lunes%3F" target="_blank" rel="noopener"><span class="wa" aria-hidden="true"><svg viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M17.47 14.38c-.3-.15-1.75-.86-2.02-.96-.27-.1-.47-.15-.67.15-.2.3-.77.96-.94 1.16-.17.2-.35.22-.64.08-.3-.15-1.25-.46-2.38-1.47-.88-.78-1.47-1.75-1.65-2.05-.17-.3-.02-.46.13-.6.13-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.08-.15-.67-1.6-.92-2.2-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.79.37-.27.3-1.04 1.02-1.04 2.48s1.07 2.88 1.22 3.08c.15.2 2.1 3.2 5.08 4.49.71.3 1.26.49 1.69.63.71.22 1.36.19 1.87.12.57-.09 1.75-.72 2-1.41.25-.69.25-1.28.17-1.41-.07-.13-.27-.2-.57-.35z"/><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.46 1.32 4.96L2 22l5.25-1.38a9.86 9.86 0 0 0 4.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91C21.96 6.45 17.5 2 12.04 2zm0 18.15h-.01a8.2 8.2 0 0 1-4.18-1.15l-.3-.18-3.11.82.83-3.04-.2-.31a8.17 8.17 0 0 1-1.25-4.38c0-4.54 3.7-8.24 8.24-8.24 2.2 0 4.27.86 5.83 2.41a8.19 8.19 0 0 1 2.41 5.83c0 4.54-3.7 8.24-8.26 8.24z"/></svg></span>Confirmar el arranque por WhatsApp</a>
+<p style="font-size:12.5px;color:var(--tenue);margin-top:14px">Se abre una conversación de WhatsApp con el mensaje ya escrito. También puedes responder este correo si lo prefieres.</p>
 </section>
 
 <footer>
